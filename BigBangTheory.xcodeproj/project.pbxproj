@@ -7,61 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1295BA2C358E3C00A55024 /* EpisodeReviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1295B92C358E3C00A55024 /* EpisodeReviewVM.swift */; };
+		1E3198962BE0124700A8BCBC /* EpisodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3198952BE0124700A8BCBC /* EpisodeInteractor.swift */; };
+		1E4D901F2BDE680400E52A7F /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D901E2BDE680400E52A7F /* TestData.swift */; };
+		1E6671762BD687DC00700713 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6671752BD687DC00700713 /* DataInteractor.swift */; };
+		1E6671782BD6CEAD00700713 /* JsonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6671772BD6CEAD00700713 /* JsonInteractor.swift */; };
 		1EAF6AB02BCA9E6F0095BC52 /* BigBangTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6AAF2BCA9E6F0095BC52 /* BigBangTheoryApp.swift */; };
-		1EAF6AB22BCA9E6F0095BC52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6AB12BCA9E6F0095BC52 /* ContentView.swift */; };
+		1EAF6AB22BCA9E6F0095BC52 /* EpisodeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6AB12BCA9E6F0095BC52 /* EpisodeListView.swift */; };
 		1EAF6AB42BCA9E700095BC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF6AB32BCA9E700095BC52 /* Assets.xcassets */; };
 		1EAF6AB72BCA9E700095BC52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF6AB62BCA9E700095BC52 /* Preview Assets.xcassets */; };
-		1EAF6AC12BCA9E700095BC52 /* BigBangTheoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6AC02BCA9E700095BC52 /* BigBangTheoryTests.swift */; };
-		1EAF6ACB2BCA9E700095BC52 /* BigBangTheoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6ACA2BCA9E700095BC52 /* BigBangTheoryUITests.swift */; };
-		1EAF6ACD2BCA9E700095BC52 /* BigBangTheoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF6ACC2BCA9E700095BC52 /* BigBangTheoryUITestsLaunchTests.swift */; };
+		1ED123582C2B1EF3007AA216 /* EpisodesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED123572C2B1EF3007AA216 /* EpisodesVM.swift */; };
+		1ED1235C2C2DED15007AA216 /* EpisodeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1235B2C2DED15007AA216 /* EpisodeItem.swift */; };
+		1ED1235E2C2F23C4007AA216 /* EpisodeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1235D2C2F23C4007AA216 /* EpisodeDetailsView.swift */; };
+		1EDB74BB2BCEC044004CA574 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB74BA2BCEC044004CA574 /* Episode.swift */; };
+		1EDB74BE2BCEE4EF004CA574 /* BigBangTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB74BC2BCEE4EF004CA574 /* BigBangTest.json */; };
+		1EDB74BF2BCEE4EF004CA574 /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB74BD2BCEE4EF004CA574 /* BigBang.json */; };
+		1EDB74C12BCEE581004CA574 /* EpisodeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB74C02BCEE581004CA574 /* EpisodeDTO.swift */; };
+		1EEE2D762C3EBA5F000594CD /* FavoriteGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE2D752C3EBA5F000594CD /* FavoriteGridView.swift */; };
+		1EEE2D782C3EC9A9000594CD /* EpisodeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE2D772C3EC9A9000594CD /* EpisodeCard.swift */; };
+		1EEE2D7A2C3F0EEC000594CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE2D792C3F0EEC000594CD /* ContentView.swift */; };
+		1EEE2D802C5172B8000594CD /* EpisodeDetails2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE2D7F2C5172B8000594CD /* EpisodeDetails2View.swift */; };
+		1EEE2D822C5173BC000594CD /* EpisodeReviewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE2D812C5173BC000594CD /* EpisodeReviewForm.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1EAF6ABD2BCA9E700095BC52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EAF6AA42BCA9E6F0095BC52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EAF6AAB2BCA9E6F0095BC52;
-			remoteInfo = BigBangTheory;
-		};
-		1EAF6AC72BCA9E700095BC52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EAF6AA42BCA9E6F0095BC52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EAF6AAB2BCA9E6F0095BC52;
-			remoteInfo = BigBangTheory;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1E1295B92C358E3C00A55024 /* EpisodeReviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeReviewVM.swift; sourceTree = "<group>"; };
+		1E3198952BE0124700A8BCBC /* EpisodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInteractor.swift; sourceTree = "<group>"; };
+		1E4D901E2BDE680400E52A7F /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		1E6671752BD687DC00700713 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		1E6671772BD6CEAD00700713 /* JsonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonInteractor.swift; sourceTree = "<group>"; };
 		1EAF6AAC2BCA9E6F0095BC52 /* BigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAF6AAF2BCA9E6F0095BC52 /* BigBangTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryApp.swift; sourceTree = "<group>"; };
-		1EAF6AB12BCA9E6F0095BC52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EAF6AB12BCA9E6F0095BC52 /* EpisodeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListView.swift; sourceTree = "<group>"; };
 		1EAF6AB32BCA9E700095BC52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EAF6AB62BCA9E700095BC52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1EAF6ABC2BCA9E700095BC52 /* BigBangTheoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBangTheoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EAF6AC02BCA9E700095BC52 /* BigBangTheoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryTests.swift; sourceTree = "<group>"; };
-		1EAF6AC62BCA9E700095BC52 /* BigBangTheoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBangTheoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EAF6ACA2BCA9E700095BC52 /* BigBangTheoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryUITests.swift; sourceTree = "<group>"; };
-		1EAF6ACC2BCA9E700095BC52 /* BigBangTheoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ED123572C2B1EF3007AA216 /* EpisodesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesVM.swift; sourceTree = "<group>"; };
+		1ED1235B2C2DED15007AA216 /* EpisodeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeItem.swift; sourceTree = "<group>"; };
+		1ED1235D2C2F23C4007AA216 /* EpisodeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsView.swift; sourceTree = "<group>"; };
+		1ED123602C32C4B6007AA216 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		1EDB74BA2BCEC044004CA574 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		1EDB74BC2BCEE4EF004CA574 /* BigBangTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BigBangTest.json; sourceTree = "<group>"; };
+		1EDB74BD2BCEE4EF004CA574 /* BigBang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
+		1EDB74C02BCEE581004CA574 /* EpisodeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDTO.swift; sourceTree = "<group>"; };
+		1EEE2D752C3EBA5F000594CD /* FavoriteGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteGridView.swift; sourceTree = "<group>"; };
+		1EEE2D772C3EC9A9000594CD /* EpisodeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCard.swift; sourceTree = "<group>"; };
+		1EEE2D792C3F0EEC000594CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EEE2D7F2C5172B8000594CD /* EpisodeDetails2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetails2View.swift; sourceTree = "<group>"; };
+		1EEE2D812C5173BC000594CD /* EpisodeReviewForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeReviewForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1EAF6AA92BCA9E6F0095BC52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6AB92BCA9E700095BC52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6AC32BCA9E700095BC52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				1EAF6AAE2BCA9E6F0095BC52 /* BigBangTheory */,
-				1EAF6ABF2BCA9E700095BC52 /* BigBangTheoryTests */,
-				1EAF6AC92BCA9E700095BC52 /* BigBangTheoryUITests */,
 				1EAF6AAD2BCA9E6F0095BC52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				1EAF6AAC2BCA9E6F0095BC52 /* BigBangTheory.app */,
-				1EAF6ABC2BCA9E700095BC52 /* BigBangTheoryTests.xctest */,
-				1EAF6AC62BCA9E700095BC52 /* BigBangTheoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +86,13 @@
 		1EAF6AAE2BCA9E6F0095BC52 /* BigBangTheory */ = {
 			isa = PBXGroup;
 			children = (
-				1EAF6AAF2BCA9E6F0095BC52 /* BigBangTheoryApp.swift */,
-				1EAF6AB12BCA9E6F0095BC52 /* ContentView.swift */,
-				1EAF6AB32BCA9E700095BC52 /* Assets.xcassets */,
+				1EAF6ADF2BCA9F200095BC52 /* System */,
+				1EAF6ADE2BCA9F170095BC52 /* Resources */,
+				1EAF6ADD2BCA9F0A0095BC52 /* Model */,
+				1EAF6ADC2BCA9EF60095BC52 /* ViewModels */,
+				1EAF6ADB2BCA9EED0095BC52 /* Interactor */,
+				1EAF6ADA2BCA9EA70095BC52 /* Components */,
+				1EAF6AD92BCA9E950095BC52 /* Views */,
 				1EAF6AB52BCA9E700095BC52 /* Preview Content */,
 			);
 			path = BigBangTheory;
@@ -105,26 +101,79 @@
 		1EAF6AB52BCA9E700095BC52 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1EDB74BC2BCEE4EF004CA574 /* BigBangTest.json */,
 				1EAF6AB62BCA9E700095BC52 /* Preview Assets.xcassets */,
+				1E4D901E2BDE680400E52A7F /* TestData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1EAF6ABF2BCA9E700095BC52 /* BigBangTheoryTests */ = {
+		1EAF6AD92BCA9E950095BC52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1EAF6AC02BCA9E700095BC52 /* BigBangTheoryTests.swift */,
+				1EEE2D792C3F0EEC000594CD /* ContentView.swift */,
+				1EAF6AB12BCA9E6F0095BC52 /* EpisodeListView.swift */,
+				1EEE2D752C3EBA5F000594CD /* FavoriteGridView.swift */,
+				1ED1235D2C2F23C4007AA216 /* EpisodeDetailsView.swift */,
+				1EEE2D7F2C5172B8000594CD /* EpisodeDetails2View.swift */,
 			);
-			path = BigBangTheoryTests;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		1EAF6AC92BCA9E700095BC52 /* BigBangTheoryUITests */ = {
+		1EAF6ADA2BCA9EA70095BC52 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				1EAF6ACA2BCA9E700095BC52 /* BigBangTheoryUITests.swift */,
-				1EAF6ACC2BCA9E700095BC52 /* BigBangTheoryUITestsLaunchTests.swift */,
+				1EEE2D812C5173BC000594CD /* EpisodeReviewForm.swift */,
+				1ED1235B2C2DED15007AA216 /* EpisodeItem.swift */,
+				1EEE2D772C3EC9A9000594CD /* EpisodeCard.swift */,
 			);
-			path = BigBangTheoryUITests;
+			name = Components;
+			sourceTree = "<group>";
+		};
+		1EAF6ADB2BCA9EED0095BC52 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1E6671752BD687DC00700713 /* DataInteractor.swift */,
+				1E6671772BD6CEAD00700713 /* JsonInteractor.swift */,
+				1E3198952BE0124700A8BCBC /* EpisodeInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		1EAF6ADC2BCA9EF60095BC52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1ED123572C2B1EF3007AA216 /* EpisodesVM.swift */,
+				1E1295B92C358E3C00A55024 /* EpisodeReviewVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		1EAF6ADD2BCA9F0A0095BC52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB74BA2BCEC044004CA574 /* Episode.swift */,
+				1EDB74C02BCEE581004CA574 /* EpisodeDTO.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1EAF6ADE2BCA9F170095BC52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1ED123602C32C4B6007AA216 /* Impact.ttf */,
+				1EDB74BD2BCEE4EF004CA574 /* BigBang.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EAF6ADF2BCA9F200095BC52 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF6AAF2BCA9E6F0095BC52 /* BigBangTheoryApp.swift */,
+				1EAF6AB32BCA9E700095BC52 /* Assets.xcassets */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +196,6 @@
 			productReference = 1EAF6AAC2BCA9E6F0095BC52 /* BigBangTheory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1EAF6ABB2BCA9E700095BC52 /* BigBangTheoryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1EAF6AD32BCA9E700095BC52 /* Build configuration list for PBXNativeTarget "BigBangTheoryTests" */;
-			buildPhases = (
-				1EAF6AB82BCA9E700095BC52 /* Sources */,
-				1EAF6AB92BCA9E700095BC52 /* Frameworks */,
-				1EAF6ABA2BCA9E700095BC52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1EAF6ABE2BCA9E700095BC52 /* PBXTargetDependency */,
-			);
-			name = BigBangTheoryTests;
-			productName = BigBangTheoryTests;
-			productReference = 1EAF6ABC2BCA9E700095BC52 /* BigBangTheoryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1EAF6AC52BCA9E700095BC52 /* BigBangTheoryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1EAF6AD62BCA9E700095BC52 /* Build configuration list for PBXNativeTarget "BigBangTheoryUITests" */;
-			buildPhases = (
-				1EAF6AC22BCA9E700095BC52 /* Sources */,
-				1EAF6AC32BCA9E700095BC52 /* Frameworks */,
-				1EAF6AC42BCA9E700095BC52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1EAF6AC82BCA9E700095BC52 /* PBXTargetDependency */,
-			);
-			name = BigBangTheoryUITests;
-			productName = BigBangTheoryUITests;
-			productReference = 1EAF6AC62BCA9E700095BC52 /* BigBangTheoryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +208,6 @@
 				TargetAttributes = {
 					1EAF6AAB2BCA9E6F0095BC52 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					1EAF6ABB2BCA9E700095BC52 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 1EAF6AAB2BCA9E6F0095BC52;
-					};
-					1EAF6AC52BCA9E700095BC52 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 1EAF6AAB2BCA9E6F0095BC52;
 					};
 				};
 			};
@@ -220,8 +225,6 @@
 			projectRoot = "";
 			targets = (
 				1EAF6AAB2BCA9E6F0095BC52 /* BigBangTheory */,
-				1EAF6ABB2BCA9E700095BC52 /* BigBangTheoryTests */,
-				1EAF6AC52BCA9E700095BC52 /* BigBangTheoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +236,8 @@
 			files = (
 				1EAF6AB72BCA9E700095BC52 /* Preview Assets.xcassets in Resources */,
 				1EAF6AB42BCA9E700095BC52 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6ABA2BCA9E700095BC52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6AC42BCA9E700095BC52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1EDB74BF2BCEE4EF004CA574 /* BigBang.json in Resources */,
+				1EDB74BE2BCEE4EF004CA574 /* BigBangTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +248,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EAF6AB22BCA9E6F0095BC52 /* ContentView.swift in Sources */,
+				1EEE2D802C5172B8000594CD /* EpisodeDetails2View.swift in Sources */,
+				1ED1235C2C2DED15007AA216 /* EpisodeItem.swift in Sources */,
+				1E6671762BD687DC00700713 /* DataInteractor.swift in Sources */,
+				1EAF6AB22BCA9E6F0095BC52 /* EpisodeListView.swift in Sources */,
+				1ED1235E2C2F23C4007AA216 /* EpisodeDetailsView.swift in Sources */,
+				1EDB74BB2BCEC044004CA574 /* Episode.swift in Sources */,
+				1EEE2D782C3EC9A9000594CD /* EpisodeCard.swift in Sources */,
+				1EEE2D822C5173BC000594CD /* EpisodeReviewForm.swift in Sources */,
+				1ED123582C2B1EF3007AA216 /* EpisodesVM.swift in Sources */,
+				1E1295BA2C358E3C00A55024 /* EpisodeReviewVM.swift in Sources */,
 				1EAF6AB02BCA9E6F0095BC52 /* BigBangTheoryApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6AB82BCA9E700095BC52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EAF6AC12BCA9E700095BC52 /* BigBangTheoryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EAF6AC22BCA9E700095BC52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EAF6ACD2BCA9E700095BC52 /* BigBangTheoryUITestsLaunchTests.swift in Sources */,
-				1EAF6ACB2BCA9E700095BC52 /* BigBangTheoryUITests.swift in Sources */,
+				1E6671782BD6CEAD00700713 /* JsonInteractor.swift in Sources */,
+				1E4D901F2BDE680400E52A7F /* TestData.swift in Sources */,
+				1EEE2D7A2C3F0EEC000594CD /* ContentView.swift in Sources */,
+				1EEE2D762C3EBA5F000594CD /* FavoriteGridView.swift in Sources */,
+				1E3198962BE0124700A8BCBC /* EpisodeInteractor.swift in Sources */,
+				1EDB74C12BCEE581004CA574 /* EpisodeDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1EAF6ABE2BCA9E700095BC52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1EAF6AAB2BCA9E6F0095BC52 /* BigBangTheory */;
-			targetProxy = 1EAF6ABD2BCA9E700095BC52 /* PBXContainerItemProxy */;
-		};
-		1EAF6AC82BCA9E700095BC52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1EAF6AAB2BCA9E6F0095BC52 /* BigBangTheory */;
-			targetProxy = 1EAF6AC72BCA9E700095BC52 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1EAF6ACE2BCA9E700095BC52 /* Debug */ = {
@@ -472,82 +448,6 @@
 			};
 			name = Release;
 		};
-		1EAF6AD42BCA9E700095BC52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TRMHX95KA5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniojimenez.BigBangTheoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBangTheory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigBangTheory";
-			};
-			name = Debug;
-		};
-		1EAF6AD52BCA9E700095BC52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TRMHX95KA5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniojimenez.BigBangTheoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBangTheory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigBangTheory";
-			};
-			name = Release;
-		};
-		1EAF6AD72BCA9E700095BC52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TRMHX95KA5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniojimenez.BigBangTheoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BigBangTheory;
-			};
-			name = Debug;
-		};
-		1EAF6AD82BCA9E700095BC52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TRMHX95KA5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniojimenez.BigBangTheoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BigBangTheory;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,24 +465,6 @@
 			buildConfigurations = (
 				1EAF6AD12BCA9E700095BC52 /* Debug */,
 				1EAF6AD22BCA9E700095BC52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1EAF6AD32BCA9E700095BC52 /* Build configuration list for PBXNativeTarget "BigBangTheoryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EAF6AD42BCA9E700095BC52 /* Debug */,
-				1EAF6AD52BCA9E700095BC52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1EAF6AD62BCA9E700095BC52 /* Build configuration list for PBXNativeTarget "BigBangTheoryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EAF6AD72BCA9E700095BC52 /* Debug */,
-				1EAF6AD82BCA9E700095BC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
