@@ -1,24 +1,21 @@
-//
-//  ContentView.swift
-//  BigBangTheory
-//
-//  Created by Antonio Jiménez Infante on 13/4/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            EpisodeListView()
+                .tabItem {
+                    Label("Episodes", systemImage: "display")
+                }
+            FavoriteGridView()
+                .tabItem {
+                    Label("Favorites", systemImage: "heart.fill")
+                }
         }
-        .padding()
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView.preview
 }
