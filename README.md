@@ -1,57 +1,64 @@
-# BigBangTheory
+# BigBangTheory Episode Tracker
 
-BigBangTheory es una aplicación diseñada para llevar un registro completo de los episodios de la famosa serie _The Big Bang Theory_. La aplicación permite a los usuarios explorar episodios de la serie en una vista principal y navegar a detalles específicos de cada uno.
+[Versión en Español](README.es.md)
 
-## 🚀 Características principales
+BigBangTheory is an application designed to keep a complete record of the episodes from the famous series _The Big Bang Theory_. The app allows users to explore episodes in a main view and navigate to specific details for each one.
 
-- **Vista principal de episodios**: Explora una lista completa de los episodios y accede a información detallada de cada uno.
-- **Interacciones con los episodios**:
-  - Marcar como favorito: Guarda tus episodios preferidos para fácil acceso.
-  - Dar un rating: Califica los episodios con un puntaje del 1 al 5.
-  - Marcar como visto: Lleva un control de los episodios que ya has visto.
-  - Añadir comentarios: Escribe notas o comentarios personalizados sobre cada episodio.
-- **Navegación externa**: Accede a enlaces externos con más información sobre los episodios.
-- **Vista de favoritos**: Visualiza todos los episodios marcados como favoritos en un formato de grid fácil de navegar.
+## 🚀 Main Features
 
-Esta aplicación ofrece una manera interactiva y personalizada de seguir tu progreso en la serie, ¡y te ayudará a recordar cuáles son tus episodios favoritos!
+- **Episode List View**: Browse a complete list of episodes and access detailed information for each one.
 
----
+- **Episode Interactions**:
+  - Mark as favorite: Save your favorite episodes for quick access.
+  - Rate episodes: Rate episodes with a score from 1 to 5.
+  - Mark as watched: Keep track of the episodes you’ve already watched.
+  - Add comments: Write notes or personalized comments about each episode.
 
-## 🛠️ Requisitos del sistema
+- **External Navigation**: Access external links with more information about the episodes.
 
-Antes de comenzar, asegúrate de que tu entorno cumpla con los siguientes requisitos:
+- **Favorites View**: See all the episodes marked as favorites in a clean and easy-to-navigate grid layout.
 
-- **iOS 17.4 o superior**
-- **Xcode 15 o superior**
-- **Swift 5.8 o superior**
+This app provides an interactive and personalized way to track your progress in the series and helps you remember your favorite episodes!
 
 ---
 
-## 📦 Instalación
+## 🛠️ System Requirements
 
-Sigue estos pasos para instalar y ejecutar el proyecto:
+Before getting started, ensure your environment meets the following requirements:
 
-1. Clona este repositorio en tu máquina local:
+- **iOS 17.4 or later**
+- **Xcode 15 or later**
+- **Swift 5.8 or later**
+
+---
+
+## 📦 Installation
+
+1. Clone this repository to your local machine:
     ```bash
    git clone https://github.com/antjiminf/BigBangTheory.git
     ```
-2. Abre el proyecto en Xcode:
+2. Open the project in Xcode:
     ```bash
     open BigBangTheory.xcodeproj
     ```
-3. Ejecuta el proyecto en un dispositivo o emulador iOS 17.4 o superior
+3. Run the project on an iOS 17.4 (or later) device or emulator.
 
-## 🎮 Uso
+---
 
-1. Abre la aplicación una vez que esté ejecutándose en el simulador o dispositivo.
-2. En la **vista principal**, podrás:
-   - Ver una lista completa de los episodios de _The Big Bang Theory_.
-   - Navegar a un episodio específico para acceder a detalles adicionales.
-3. Desde la **vista de detalles de un episodio**, puedes:
-   - **Marcar como favorito**.
-   - **Dar un rating** del episodio del 1 al 5.
-   - **Marcar como visto**.
-   - **Añadir comentarios** sobre el episodio.
-   - **Abrir enlaces externos** para obtener más información.
-4. Accede a la **vista de favoritos** para revisar todos los episodios marcados como favoritos, presentados en un formato de grid.
+## 🎮 Usage
 
+1. Open the app once it’s running on the simulator or a device.
+
+2. In the **main view**, you can:
+   - See a complete list of episodes from _The Big Bang Theory_.
+   - Navigate to a specific episode to access detailed information.
+
+3. From the **episode detail view**, you can:
+   - **Mark as favorite**.
+   - **Rate the episode** from 1 to 5.
+   - **Mark as watched**.
+   - **Add comments** about the episode.
+   - **Open external links** for additional information.
+
+4. Access the **favorites view** to review all episodes marked as favorites, displayed in a grid format.

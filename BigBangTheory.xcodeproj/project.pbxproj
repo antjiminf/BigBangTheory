@@ -37,6 +37,7 @@
 		1E6671752BD687DC00700713 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
 		1E6671772BD6CEAD00700713 /* JsonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonInteractor.swift; sourceTree = "<group>"; };
 		1E8EC3942D412EEE00AF1AA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1E8EC3962D41341E00AF1AA8 /* README.es.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.es.md; sourceTree = "<group>"; };
 		1EAF6AAC2BCA9E6F0095BC52 /* BigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAF6AAF2BCA9E6F0095BC52 /* BigBangTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryApp.swift; sourceTree = "<group>"; };
 		1EAF6AB12BCA9E6F0095BC52 /* EpisodeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		1EAF6AA32BCA9E6F0095BC52 = {
 			isa = PBXGroup;
 			children = (
+				1E8EC3962D41341E00AF1AA8 /* README.es.md */,
 				1E8EC3942D412EEE00AF1AA8 /* README.md */,
 				1EAF6AAE2BCA9E6F0095BC52 /* BigBangTheory */,
 				1EAF6AAD2BCA9E6F0095BC52 /* Products */,
